@@ -1,4 +1,4 @@
-let samples = "../data/samples.json"
+let samples = "./data/samples.json"
 
 function initialize(data){
     d3.json(samples).then(function (data) {
